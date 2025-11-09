@@ -3,7 +3,7 @@ from lepikult.yliopilased Y
 LEFT JOIN lepikult.koduylesanded k
 on k.yliopilane = y.id
 group by y.perenimi, y.eesnimi;
--tulemused
+--tulemused
 
 "EESNIMI"	"PERENIMI"	"ROUND(AVG(K.PUNKTID),2)"
 "Virgo"	    "Pihlakas"	6.5
